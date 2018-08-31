@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{movie.title}}</mat-card-title>
+    <mat-card-subtitle>{{movie.year}} год</mat-card-subtitle>
+  </mat-card-header>
+
+  <img width="224" height="370" mat-card-image [src]="'https://image.tmdb.org/t/p/w370_and_h556_bestv2'+movie.image">
+
+  <mat-card-content>
+    {{movie.descriptoin}}
+  </mat-card-content>
+
+
+</mat-card>
