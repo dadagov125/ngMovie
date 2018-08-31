@@ -21,13 +21,11 @@
           <mat-icon>close</mat-icon>
         </button>
       </mat-list-item>
-
     </mat-nav-list>
   </div>
 
-  <div fxFlex="50">
+  <div fxFlex="50" fxFlexOffset="5">
     <movie-details *ngIf="selectedMovie" [movie]="selectedMovie"></movie-details>
-
   </div>
 
 </div>
