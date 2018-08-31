@@ -3,3 +3,4 @@
 movie.iml
 movie/node_modules
 movie/**/*.js
+movie/package-lock.json
